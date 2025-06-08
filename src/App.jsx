@@ -4,11 +4,12 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { useEffect, useState } from 'react';
 import { fetchFuelPrices } from './apis/fuelApiLib';
 import { FuelApi } from './apis/FuelApi';
+import React from 'react';
 
 
 import Header from './components/Header';
 import FuelMap from './components/FuelMap';
-import About from './components/About';
+import About from './pages/About';
 import Home from './components/Home';
 import StationDetail from './components/StationDetail';
 import FuelTable from './components/FuelTable';

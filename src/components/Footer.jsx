@@ -2,17 +2,15 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div>
-        <h2>Miembros del equipo:</h2>
-        <ul>
-            <li>Javier García</li>
-            <li>Javier López</li>
-            <li>Javier Martínez</li>
-            <li>Javier Pérez</li>
-            <li>Javier Rodríguez</li>
-        </ul>
-    </div>
-  )
+    <footer style={{ textAlign: 'center', padding: '1em', background: '#eee' }}>
+      <h2>Miembros del equipo:</h2>
+      <ul>
+        <li>Sergio Martinez</li>
+        <li>Jesus Alejandro</li>
+        <li>Aitor Vivanco</li>
+      </ul>
+    </footer>
+  );
 }
 
-export default Footer
+export default Footer;
